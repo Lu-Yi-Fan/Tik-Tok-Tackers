@@ -12,22 +12,23 @@ Our solution is a stochastic optimization model that can dynamically score and p
 We built our model using Python alongside with the models from Sklearn : -Gradient Boost Regression Model and Linear Regression Model. We used data provided by TikTok's platform to train our model and derive the weights of our equation to generate a Y score for our ads and moderator so as to rank them
 
 ## Challenges we ran into
-- Dealing with noisy and incomplete data , we had to clean and preprocess the data before using it for generating the Y value for our dataset.
+- Dealing with noisy and incomplete data, we had to clean and preprocess the data before using it for generating the Y value for our dataset.
 - Handling the uncertainty and variability of user behavior and response to ads. We had to use stochastic methods and probabilistic models to account for these factors.
 - Ensuring fairness and diversity in our model. We had to avoid bias and discrimination in our model's decisions and outcomes.
 
 ## Accomplishments that we're proud of
 Some of the accomplishments we're proud of are:
-- Developing a novel and comprehensive solution for social media advertisement moderation optimization.
-- Achieving high accuracy and efficiency in our model's predictions and assignments.
-- Demonstrating significant improvement in TikTok's revenue generation and risk reduction compared to its current moderation process.
-
-## What we learned
-- How to apply stochastic optimization techniques to real-world problems.
-- How to use web search results to enhance our data and information.
-- How to work as a team and collaborate effectively.
+- Developing a model to score ads and moderators by aggregating the coefficients of each independent variable.
+- Achieving high utilisation of over 95% of the available moderators by assigning ads to moderators by country.
 
 ## What's next for optimization of ads moderation
+- Incorporating more features like ad arrival time to improve the utilisation rate of the moderators using our matching model.
+- Testing our model on updated datasets to validate our models.
 - Scaling up our model to handle larger volumes of ads and moderators.
-- Incorporating more features and data sources into our model to improve its performance.
-- Testing our model on other social media platforms and domains.
+
+## Our Team
+- Liang Bing: Third year Business Analytics Student interested in Machine Learning and AI
+- Jesper: Third year Business Analytics Student interested in Big Data
+- Summer: Third year Business Analytics Student and Data Enthusiast
+- Yifan: Third year Business Analytics Student interested in algorithms
+- Marc: A third year student majoring in Data Science & Analytics

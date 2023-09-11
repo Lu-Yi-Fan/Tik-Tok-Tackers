@@ -14,7 +14,8 @@ We built our model using Python alongside with the models from Sklearn : -Gradie
 ## Challenges we ran into
 - Dealing with noisy and incomplete data, we had to use K-nearest neighbours to fill in missing data and leverage feature engineering before using it for generating the Y value (priority scores) for our dataset.
 - Finding a solution to predict a score for our ads and moderator. We ended up using regression models to aggregate the coefficients of each independent variable to predict the priority scores.
-- Handling the unequal distribution of moderators across countries. We had to assign ads to moderators according to country and second best alternatives.
+- Handling the unequal distribution of moderators across countries. We had to assign ads to moderators according to country to moderators with the least number of assigned ads, so as to increase utilisation rates across the board.
+
 
 ## Accomplishments that we're proud of
 Some of the accomplishments we're proud of are:

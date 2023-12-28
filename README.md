@@ -31,5 +31,5 @@ Some of the accomplishments we're proud of are:
 - Liang Bing: Third year Business Analytics Student interested in Machine Learning and AI
 - Jesper: Student interested in Big Data and Financial Analytics
 - Summer: Business Analytics student and Data Enthusiast
-- Yifan: Third year Business Analytics student interested in algorithms and data science
+- Yifan: Third year Business Analytics student interested in AI and software devlopment
 - Marc: Student majoring in Data Science & Analytics
